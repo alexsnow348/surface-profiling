@@ -1,8 +1,8 @@
 """
 To do list
-1. Read csv file/files from raw folder
-2. Clean the file/files, replace -99.9999 with NaN
-3. Merge into one df and plot line graph and save pdf file
+1. Read csv file/files from raw folder - (**done**)
+2. Clean the file/files, replace -99.9999 with NaN  (**done**)
+3. Merge into one df and plot line graph and save pdf file  (**done**)
 """
 import pandas as pd
 import glob
@@ -107,7 +107,7 @@ def main():
         clean_and_save(each)
     merge_df = merge_and_plot()
     plot_and_save(merge_df)
-    files_clean_up()
+    # files_clean_up()
     print("Successfully done the surface profileing.")
 
 
