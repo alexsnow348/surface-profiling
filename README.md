@@ -10,13 +10,15 @@
 ```bash
 $ git clone https://github.com/alexsnow348/surface-profiling.git 
 ```
-
-2. Install required libraries 
+2. Change working directory
+```bash
+$ cd surface-profiling.
+```
+3. Install required libraries 
 ```bash
 $ pip -r install requirements.txt
 ```
-
-3. Run the script
+4. Run the script
 ```bash
 $ python run_surface_profiling.py
 ```
